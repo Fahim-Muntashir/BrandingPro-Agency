@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
+import BookCall from "../ui/bookCall";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,11 +27,11 @@ const Header = () => {
   return (
     <div>
       <header>
-        <div className="container mx-auto flex justify-between items-center py-2 px-6">
+        <div className="container mx-auto flex justify-between items-center py-2 mt-5 px-6">
           {/* Logo */}
           <div>
             <img
-              src="../src/assets/logo.svg"
+              src="../public/assets/logo.svg"
               alt="Logo"
               width={200}
               className="object-cover"
@@ -38,12 +39,12 @@ const Header = () => {
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex space-x-6">
+          <nav className="hidden md:flex font-semibold text-[19px] space-x-6">
             <a href="#" className="hover:text-gray-400 transition duration-300">
               Service
             </a>
             <a href="#" className="hover:text-gray-400 transition duration-300">
-              About
+              About us
             </a>
             <a href="#" className="hover:text-gray-400 transition duration-300">
               Service
@@ -55,9 +56,7 @@ const Header = () => {
 
           {/* Button and Mobile Menu Icon */}
           <div className="flex items-center space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-500 text-white py-2 px-4 rounded-full transition duration-300">
-              Book A Call
-            </button>
+            <BookCall></BookCall>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden text-white"
