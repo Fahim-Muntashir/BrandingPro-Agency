@@ -1,7 +1,7 @@
 // style={{ backgroundImage: "url('../../../public/assets/contactbd.jpg')" }}
 const Contact = () => {
   return (
-    <div className=" my bg-[#D6DCE1] w-full bg-cover bg-center">
+    <div id="contact" className=" my bg-[#D6DCE1] w-full bg-cover bg-center">
       <div className="md:flex md:mx-28 text-white">
         <div className="md:w-2/4">
           <h1 className="font-bold text-8xl md:mt-32 leading-snug">
@@ -10,7 +10,7 @@ const Contact = () => {
             together.
           </h1>
         </div>
-        <form className="w-full mt-24 md:mt-[380px] md:w-2/4 mx-auto p-6 bg-white shadow-md rounded-lg">
+        <form className="w-full mt-24 md:mt-[380px] md:w-2/4 mx-auto p-6 bg-white shadow-md rounded-lg ">
           <div className="mb-4">
             <label htmlFor="fullName" className="label">
               Full Name

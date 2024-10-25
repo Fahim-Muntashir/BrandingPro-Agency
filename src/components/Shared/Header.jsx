@@ -49,7 +49,10 @@ const Header = () => {
             <a href="#" className="hover:text-gray-400 transition duration-300">
               Service
             </a>
-            <a href="#" className="hover:text-gray-400 transition duration-300">
+            <a
+              href="#contact"
+              className="hover:text-gray-400 transition duration-300"
+            >
               Contact
             </a>
           </nav>
