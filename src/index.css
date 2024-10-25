@@ -15,9 +15,11 @@ body {
 }
 
 
+/*  
+
 /* Form Style */
 .input {
-  @apply w-full text-black mt-2 p-2 border-b border-black focus:outline-none focus:border-blue-500;
+  @apply w-full text-black mt-2 bg-gray-100 p-2 border-l-4 border-gray-400 focus:outline-none focus:border-secondary;
 }
 
 .label {
@@ -33,7 +35,7 @@ body {
 .custom-select {
   color: #4e4b4b;
   transition: box-shadow 0.3s ease;
-  border-bottom: 0.5px solid rgb(185, 183, 183);
+  border-left: 0.5px solid rgb(185, 183, 183);
 }
 
 .custom-select:focus {
