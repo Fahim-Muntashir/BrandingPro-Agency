@@ -4,10 +4,10 @@ import ContactButton from "../ui/ContactButton";
 
 const Banner = () => {
   return (
-    <div className="h-[80vh]">
+    <div className="">
       <Container>
-        <div className="h-[80vh] flex justify-center items-center text-center">
-          <div>
+        <div className="h-[70vh]  flex justify-center items-center text-center">
+          <div className="mt-20">
             <h5 className=" font-semibold bg-cyan-950 inline-block py-1 px-4 rounded-full mb-6">
               Welcome to <span className="text-primary">Branding Pro</span>
             </h5>
@@ -23,7 +23,7 @@ const Banner = () => {
               around the world at a reasonable cost
             </p>
 
-            <div className="mt-6 flex items-center justify-center gap-3">
+            <div className="mt-6 flex items-center justify-center gap-x-3">
               <BookCall></BookCall>
               <ContactButton></ContactButton>
             </div>
