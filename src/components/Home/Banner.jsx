@@ -1,5 +1,5 @@
 import Container from "../Shared/Container";
-import BookCall from "../ui/bookCall";
+import BookCall from "../ui/BookCall";
 import ContactButton from "../ui/ContactButton";
 
 const Banner = () => {
