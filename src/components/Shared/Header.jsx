@@ -30,16 +30,14 @@ const Header = () => {
         <div className="container mx-auto flex justify-between items-center py-2 mt-5 px-6">
           {/* Logo */}
           <div>
-            <img
-              src="../public/assets/logo.svg"
-              alt="Logo"
-              width={200}
-              className="object-cover"
-            />
+            <img src="../public/assets/logo.png" alt="Logo" width={220} />
           </div>
 
           {/* Desktop Navigation Links */}
-          <nav className="hidden md:flex font-semibold text-[19px] space-x-6">
+          <nav className="hidden md:flex text-[19px] space-x-7">
+            <a href="#" className="hover:text-gray-400 transition duration-300">
+              Service
+            </a>{" "}
             <a href="#" className="hover:text-gray-400 transition duration-300">
               Service
             </a>
