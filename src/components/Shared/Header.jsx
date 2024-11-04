@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-import BookCall from "../ui/bookCall";
+import BookCall from "../ui/BookCall";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
