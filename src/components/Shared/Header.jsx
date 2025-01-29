@@ -57,7 +57,6 @@ const Header = () => {
 
           {/* Button and Mobile Menu Icon */}
           <div className="flex items-center space-x-4">
-            <BookCall></BookCall>
             <button
               onClick={() => setIsOpen(!isOpen)}
               className="md:hidden text-white"
@@ -71,7 +70,7 @@ const Header = () => {
       {/* Side Navigation */}
       <div
         ref={sidebarRef} // Attach ref here
-        className={`fixed top-0 left-0 h-full w-2/3 bg-gray-700 text-white transform transition-transform duration-300 ease-in-out ${
+        className={`fixed top-0 left-0 h-full w-2/3 bg-gray-700 z-[3000] text-white transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         }`}
       >
@@ -105,6 +104,11 @@ const Header = () => {
           >
             Contact
           </a>
+
+          <div className="">
+            {" "}
+            <BookCall></BookCall>
+          </div>
         </nav>
       </div>
     </div>

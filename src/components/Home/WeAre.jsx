@@ -6,17 +6,17 @@ const WeAre = () => {
   return (
     <Container>
       <div className="md:flex gap-x-4 justify-center my-36 md:px-10">
-        <div className="md:w-2/4 my-10 bg-[#D6DCE1] md:me-20">
+        <div className="md:w-2/4 my-10  md:me-20">
           <img src="../../../public/assets/contactbd.jpg" alt="" />
-          <div className="flex w-full justify-between text-center">
-            <div className="bg-white text-black p-10">
+          <div className="flex w-full justify-between gap-1 mt-1 text-center">
+            <div className="bg-white w-2/4 text-black p-10">
               <h1 className="text-2xl font-semibold">
                 {" "}
                 100+ <br />
                 Case Studies
               </h1>
             </div>{" "}
-            <div className="bg-white text-black p-10">
+            <div className="bg-white w-2/4 text-black p-10">
               <h1 className="text-2xl font-semibold">
                 View <br />
                 Case Studies
@@ -25,10 +25,10 @@ const WeAre = () => {
           </div>
         </div>
         <div className="md:w-2/4">
-          <h5 className=" font-semibold bg-cyan-950 inline-block py-1 px-4 rounded-full">
+          <h5 className=" lg:font-semibold  bg-cyan-950 inline-block py-1 px-4 rounded-full">
             <span className="text-primary">Who</span> We Are
           </h5>
-          <h1 className="font-bold text-6xl mt-4 leading-snug">
+          <h1 className="font-bold md:text-6xl text-5xl mt-4 leading-snug">
             <span className="text-gray-300">We Make Brand&lsquo;s</span> <br />
             <span className="text-gray-400">— </span>
             that fly.
