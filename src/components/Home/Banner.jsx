@@ -13,8 +13,8 @@ const Banner = () => {
             </h5>
 
             <h1 className="text-5xl md:text-7xl font-semibold">
-              We make great digital products <br /> for{" "}
-              <span className="text-primary">innovative</span> brands.
+              We make great Websites <br /> for{" "}
+              <span className="text-primary">Youtube</span> brands & Creators.
             </h1>
 
             <p className="mt-3 text-gray-400">
